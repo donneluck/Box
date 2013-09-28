@@ -13,7 +13,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"%hhd",[AppDelegate isRunningOniPhone5]);
+    
     return YES;
+}
+
++(BOOL)isRunningOniPhone5{
+    return [UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

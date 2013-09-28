@@ -21,6 +21,11 @@
 		30DBA22B17F1A55500919DD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DBA20D17F1A55500919DD3 /* UIKit.framework */; };
 		30DBA23317F1A55500919DD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30DBA23117F1A55500919DD3 /* InfoPlist.strings */; };
 		30DBA23517F1A55500919DD3 /* BoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBA23417F1A55500919DD3 /* BoxTests.m */; };
+		30DBA23F17F1A6A000919DD3 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30DBA23E17F1A6A000919DD3 /* SampleData.plist */; };
+		30DBA24217F1BA6900919DD3 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBA24117F1BA6900919DD3 /* OneViewController.m */; };
+		30DBA24517F1BCA400919DD3 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBA24417F1BCA400919DD3 /* Box.m */; };
+		30DBA24817F1BE5A00919DD3 /* BoxContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBA24717F1BE5A00919DD3 /* BoxContentViewController.m */; };
+		30DBA24B17F1BE6B00919DD3 /* OneContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBA24A17F1BE6B00919DD3 /* OneContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		30DBA23017F1A55500919DD3 /* BoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoxTests-Info.plist"; sourceTree = "<group>"; };
 		30DBA23217F1A55500919DD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30DBA23417F1A55500919DD3 /* BoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxTests.m; sourceTree = "<group>"; };
+		30DBA23E17F1A6A000919DD3 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		30DBA24017F1BA6900919DD3 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		30DBA24117F1BA6900919DD3 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		30DBA24317F1BCA400919DD3 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		30DBA24417F1BCA400919DD3 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		30DBA24617F1BE5A00919DD3 /* BoxContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxContentViewController.h; sourceTree = "<group>"; };
+		30DBA24717F1BE5A00919DD3 /* BoxContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxContentViewController.m; sourceTree = "<group>"; };
+		30DBA24917F1BE6B00919DD3 /* OneContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneContentViewController.h; sourceTree = "<group>"; };
+		30DBA24A17F1BE6B00919DD3 /* OneContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,7 @@
 		30DBA1FD17F1A55500919DD3 = {
 			isa = PBXGroup;
 			children = (
+				30DBA23E17F1A6A000919DD3 /* SampleData.plist */,
 				30DBA20F17F1A55500919DD3 /* Box */,
 				30DBA22E17F1A55500919DD3 /* BoxTests */,
 				30DBA20817F1A55500919DD3 /* Frameworks */,
@@ -112,11 +127,19 @@
 		30DBA20F17F1A55500919DD3 /* Box */ = {
 			isa = PBXGroup;
 			children = (
+				30DBA24317F1BCA400919DD3 /* Box.h */,
+				30DBA24417F1BCA400919DD3 /* Box.m */,
 				30DBA21817F1A55500919DD3 /* AppDelegate.h */,
 				30DBA21917F1A55500919DD3 /* AppDelegate.m */,
 				30DBA21B17F1A55500919DD3 /* Main.storyboard */,
 				30DBA21E17F1A55500919DD3 /* ViewController.h */,
 				30DBA21F17F1A55500919DD3 /* ViewController.m */,
+				30DBA24017F1BA6900919DD3 /* OneViewController.h */,
+				30DBA24117F1BA6900919DD3 /* OneViewController.m */,
+				30DBA24617F1BE5A00919DD3 /* BoxContentViewController.h */,
+				30DBA24717F1BE5A00919DD3 /* BoxContentViewController.m */,
+				30DBA24917F1BE6B00919DD3 /* OneContentViewController.h */,
+				30DBA24A17F1BE6B00919DD3 /* OneContentViewController.m */,
 				30DBA22117F1A55500919DD3 /* Images.xcassets */,
 				30DBA21017F1A55500919DD3 /* Supporting Files */,
 			);
@@ -230,6 +253,7 @@
 			files = (
 				30DBA22217F1A55500919DD3 /* Images.xcassets in Resources */,
 				30DBA21417F1A55500919DD3 /* InfoPlist.strings in Resources */,
+				30DBA23F17F1A6A000919DD3 /* SampleData.plist in Resources */,
 				30DBA21D17F1A55500919DD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DBA24517F1BCA400919DD3 /* Box.m in Sources */,
 				30DBA22017F1A55500919DD3 /* ViewController.m in Sources */,
+				30DBA24B17F1BE6B00919DD3 /* OneContentViewController.m in Sources */,
+				30DBA24817F1BE5A00919DD3 /* BoxContentViewController.m in Sources */,
 				30DBA21A17F1A55500919DD3 /* AppDelegate.m in Sources */,
 				30DBA21617F1A55500919DD3 /* main.m in Sources */,
+				30DBA24217F1BA6900919DD3 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +488,7 @@
 				30DBA23A17F1A55500919DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30DBA23B17F1A55500919DD3 /* Build configuration list for PBXNativeTarget "BoxTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +497,7 @@
 				30DBA23D17F1A55500919DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
